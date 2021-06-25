@@ -9,6 +9,10 @@ em {
   font-weight: bolder;
 }
 
+h2 {
+  font-size: 2rem;
+}
+
 /* header and navbar */
 
 nav {
@@ -21,6 +25,7 @@ nav {
   position: fixed;
   right: 0;
   top: 0;
+  border-bottom: 1px solid gray;
 }
 
 
@@ -61,13 +66,68 @@ body {
 }
 
 .subsection {
-  width: 50%;
+  min-width: 40%;
   display: flex;
   justify-content: center;
 }
 
+.text-subsection {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  font-size: 30px;
+  width: 100%;
+}
+
 .banner-img {
-    width: 60%;
+    width: 80%;
+    padding: 32px 24px;
+    border: 1px solid;
+}
+
+.horizontal-tile {
+  display: inline-flex;
+  width: 100%;
+  background-color: yellow;
+  border: 1px solid green;
+}
+
+.horizontal-tile p {
+    font-size: 1rem;
+}
+
+.caption {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 32px 0px 32px;
+  margin: 0px 61px 0px 61px;
+  border: 1px solid blue;
+}
+
+.h-tile-image {
+  width: 30%;
+  height: auto;
+  padding: 16px;
+  border: 1px solid purple;
+}
+
+.h-tile-caption {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tile-title {
+  padding: 0;
+  margin: 0;
+}
+
+.tile-subtitle {
+  padding: 0;
+  margin: 0;
 }
 
 /* body section 1 */
